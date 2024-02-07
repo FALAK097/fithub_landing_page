@@ -12,7 +12,7 @@ const App = () => {
         fitness goals through innovative features and personalized
         recommendations."
         showBtn
-        mockupImg={assets.homeHero}
+        mockupImg={assets.three}
         banner="banner"
       />
       <SectionWrapper
@@ -20,26 +20,26 @@ const App = () => {
         description=" Our smart camera feature allows you to click or upload a photo of any
         gym machine, and it will provide information on how to use the machine,
         its benefits, and recommend exercises you can perform using it."
-        mockupImg={assets.homeCards}
+        mockupImg={assets.six}
         reverse
       />
       <Features />
       <SectionWrapper
         title="Deployment"
         description="FitHub is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
-        mockupImg={assets.feature}
+        mockupImg={assets.four}
         reverse
       />
       <SectionWrapper
         title="Creative way to showcase the app"
         description="Explore our app's smart camera feature, personalized diet recommendations, and customized exercise routines to optimize your fitness journey."
-        mockupImg={assets.mockup}
+        mockupImg={assets.nine}
         banner="banner02"
       />
 
       {/* <Download /> */}
 
-      <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
+      <div className="flex-col items-center justify-center px-4 py-2 text-center bg-primary banner04">
         <p className={`${styles.pText} ${styles.whiteText}`}>
           Made with 💖 by{' '}
           <a
