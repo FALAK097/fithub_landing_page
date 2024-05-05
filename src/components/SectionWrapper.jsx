@@ -40,7 +40,7 @@ const SectionWrapper = ({
           {showBtn && (
             <Button
               assetUrl={assets.expo}
-              link="https://github.com/FALAK097/FitnessApp"
+              link="https://drive.google.com/file/d/15PgkbPFhSl-6xhzAG8s-qY2-QWtUPEzh/view?usp=drive_link"
             />
           )}
         </div>
